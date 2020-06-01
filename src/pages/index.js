@@ -8,18 +8,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>chloe ng</h1>
-    <ul style={ulStyle}>
-    <li style={liStyle}>
-      Email
-    </li>
-    <li style={liStyle}>
-      LinkedIn
-    </li>
-    <li style={liStyle}>
-      GitHub
-    </li>
-    </ul>
+    <h1>hello world</h1>
     <h2>Current</h2>
     <ul>
       <li>Hanging out with my dog, Bash.</li>
@@ -46,21 +35,10 @@ const IndexPage = () => (
         DexMD
       </li>
     </ul>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
-    </div>
+    </div> */}
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
-
-const ulStyle = {
-  display: 'flex',
-  flexWrap: 'wrap',
-  listStyle: 'none',
-  marginLeft: '0'
-}
-
-const liStyle = {
-  marginRight: '1.5em'
-}
 export default IndexPage
